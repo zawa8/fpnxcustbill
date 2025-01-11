@@ -1,5 +1,5 @@
 "use client";
-import FontPicker from '@/app/ui/FontPicker';
+import FontPicker from '@/app/ui/lifonts/lifonts';
 
 export default function AcmeLogo() {
   return (
