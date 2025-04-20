@@ -1,8 +1,7 @@
 //"use client";
 import '@/app/ui/global.css';
 import React, {  } from 'react';
-////binaryhoriontal115.woff2  hex115.woff2 binaryvertical115.woff2
-import { hingu115_font } from '@/app/ui/lifonts/lifonts';
+import { hindienglosoftw8asc } from "@/app/ui/lifonts/localfonts";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -13,7 +12,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children, }: { children: React.ReactNode; }) {
   return (
     <html lang="en">
-        <body className={`${hingu115_font.className} antialiased`}>
+        <body className={`${hindienglosoftw8asc.className} antialiased`}>
           {children}
         </body>
     </html>
